@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "fonte-titulo";
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom,#57e952,#348131bb,#133a12);
+    padding-bottom: 9px;
+}
+
+#titulo-principal{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding: 17px;
+    font-weight: bold;
+}
+
+header > p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.596);
+    padding-bottom: 18px;
+}
+
+header > a{
+    color: rgba(255, 255, 255, 0.87);
+    text-decoration: none;
+    padding: 5px;
+    font-size: 13px;
+}
+
+header > a:hover{
+    text-decoration: underline;
+}
+
+body{
+    background-color: rgba(144, 238, 144, 0.459);
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(1, 20, 35, 0.644);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1{
+    font-family: "fonte-titulo";
+    text-align: left;
+    color: #133a12;
+    font-weight: bold;
+    padding: 4px;
+}
+
+p{
+    margin: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 14px;
+    text-align:justify;
+    font-weight: 500;
+}
+
+h2{
+    background-image: linear-gradient(90deg, #37ec3469, #ffffff);
+    font-family: "fonte-titulo";
+    text-align: left;
+    color: #133a12b0;
+    margin: 8px;
+    padding: 10px;
+}
+
+img{
+    max-width: 600px;
+    padding: 6px;
+}
+
+#bugdroid{
+    display: block;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #266e24;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#historia-android{
+    background-color: #133a12;
+    text-align: center;
+    padding: 16px;
+}
+
+#lista{
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(1, 20, 35, 0.459);
+    background-color: #5ec05c7a;
+}
+
+#lista > h3 {
+    background-color: #133a12;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    padding: 4px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#lista > p {
+    padding: 19px;
+}
+
+.lista {
+    font-weight: bold;
+    columns: 2; /* dividir em duas colunas */
+    -webkit-columns: 2; /* suporte para navegadores webkit */
+    -moz-columns: 2;
+    padding-left: 30px
+}
+
+footer{
+    background-color: #123a1bce;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+footer > p{
+    text-align: center;
+    color: white;
+}
