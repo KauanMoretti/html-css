@@ -1,0 +1,69 @@
+@charset "UTF-8";
+ /*Configurações globais do meu CSS*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ /*Configuração do tamanho e cor de fundo do site*/
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
+ /*Configuração do meu cabeçalho*/
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+ /*Configuração do meu H1 dentro do meu cabeçalho, coloquei um espaçamento no topo e deixei todas as letras maiusculas*/
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+ /*Adicionei um padding de 50px para baixo no paragrafo do meu cabeçalho*/
+header > p {
+    padding-bottom: 50px;
+}
+ /*Nos links do meu cabeçalho e do meu rodapé, defini cor branca, sem sublinhado e o negrito*/
+header a, footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+ /*Quando tiver com o mouse em cima dos links do header e footer aparecera o sublinhado*/
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+ /*Configuração da minha section em geral, espaçamento para baixo e para cima, pra ajudar no efeito paralax que será colocado depois, aumento do espaçamento das letras e um espaçamento de todas as sections para a esquerda*/
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+ /*Configuração da minha section de class normal*/
+section.normal{
+    background-color: white;
+    color: black;
+}
+ /*Configuração da minha section de class imagem*/
+section.imagem{
+    background-color: rgba(0, 0, 0, 0.795);
+    color: white;
+}
+ /*Configuração de paragrafo da section com class imagem*/
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.329);
+    width: 400px;
+}
+ /*Configuração rodapé*/
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+ /**/
+body {
+    background-color:;
+}
