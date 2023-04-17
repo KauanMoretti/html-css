@@ -11,6 +11,7 @@
         }
 
         table{
+            position: relative;
             width: 500px;
             border-collapse: collapse;
         }
@@ -27,14 +28,27 @@
             background-color: lightgray;
         }
 
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: grey;
+        }
+
         td.num{
             text-align: right;
+        }
+
+        /*Efeito zebrado*/
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
         }
 
         thead, tfoot{
             background-color: grey;
             color: white;
         }
+
+
     </style>
 </head>
 <body>
@@ -92,6 +106,7 @@
                 <td>Ceará</td>
                 <td class="num">8 867 448</td>
             </tr>
+            
         </tbody>
         <tfoot>
             <tr>
@@ -100,5 +115,11 @@
             </tr>
         </tfoot>
     </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste deserunt praesentium sequi dolores itaque, recusandae odio similique atque harum corporis. Veniam, quos earum cumque iusto atque corrupti placeat illum praesentium?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci officia accusantium excepturi consequatur vel quos sunt dolores doloremque? Quidem debitis facere vel illum porro alias deserunt eos minus accusantium Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ullam impedit facere odio distinctio, laborum voluptate quam eligendi molestiae esse minus, at nulla officia ad blanditiis perferendis repellendus maxime exercitationem.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste deserunt praesentium sequi dolores itaque, recusandae odio similique atque harum corporis. Veniam, quos earum cumque iusto atque corrupti placeat illum praesentium?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci officia accusantium excepturi consequatur vel quos sunt dolores doloremque? Quidem debitis facere vel illum porro alias deserunt eos minus accusantium Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ullam impedit facere odio distinctio, laborum voluptate quam eligendi molestiae esse minus, at nulla officia ad blanditiis perferendis repellendus maxime exercitationem.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste deserunt praesentium sequi dolores itaque, recusandae odio similique atque harum corporis. Veniam, quos earum cumque iusto atque corrupti placeat illum praesentium?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci officia accusantium excepturi consequatur vel quos sunt dolores doloremque? Quidem debitis facere vel illum porro alias deserunt eos minus accusantium Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ullam impedit facere odio distinctio, laborum voluptate quam eligendi molestiae esse minus, at nulla officia ad blanditiis perferendis repellendus maxime exercitationem.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste deserunt praesentium sequi dolores itaque, recusandae odio similique atque harum corporis. Veniam, quos earum cumque iusto atque corrupti placeat illum praesentium?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci officia accusantium excepturi consequatur vel quos sunt dolores doloremque? Quidem debitis facere vel illum porro alias deserunt eos minus accusantium Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ullam impedit facere odio distinctio, laborum voluptate quam eligendi molestiae esse minus, at nulla officia ad blanditiis perferendis repellendus maxime exercitationem.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste deserunt praesentium sequi dolores itaque, recusandae odio similique atque harum corporis. Veniam, quos earum cumque iusto atque corrupti placeat illum praesentium?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci officia accusantium excepturi consequatur vel quos sunt dolores doloremque? Quidem debitis facere vel illum porro alias deserunt eos minus accusantium Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ullam impedit facere odio distinctio, laborum voluptate quam eligendi molestiae esse minus, at nulla officia ad blanditiis perferendis repellendus maxime exercitationem.</p>
 </body>
 </html>
