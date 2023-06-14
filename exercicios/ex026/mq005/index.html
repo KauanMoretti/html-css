@@ -6,8 +6,9 @@
     <title>Media Query</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu site</h1>
         <span id="burguer" class="material-symbols-rounded" onclick="clickMenu()">
@@ -37,7 +38,20 @@
         </article>
     </main>
     <script>
+
+        function mudouTamanho() {
+            /*Se a largura da minha tela for maior ou igual a 768 (tamanho que defini nas medias queries) eu mando mostrar em block forçadamente, no casa se a tela for grande. Else (se  não) ele não exibe o menu*/
+            if (window.innerWidth >=768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display= 'none'
+            }
+        }
+
         function clickMenu() {
+
+            /*Se o menu (que tem o id itens) for igual a block eu vou esconder através do itens.style.display=none, else (se nao) meu display volta a ser block, atráves do itens.style.display='block'*/
+
             if (itens.style.display == "block") {
                 itens.style.display = 'none'
             } else {
